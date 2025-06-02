@@ -36,6 +36,3 @@ def get_lyrics_list(artist: str, name: str) -> list[str]:
     returns list of all lines of the lyrics for the music (artist - name)
     """
     return get_lyrics(artist, name).split('\n')
-
-def _lyrics_main():
-    print(get_lyrics_list('secret garden', 'greenwaves'))
